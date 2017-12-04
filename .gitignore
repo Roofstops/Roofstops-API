@@ -1,1 +1,5 @@
 node_modules
+.env
+
+
+DATABASE_URL: postgres://nstqwkvahquhte:a4b50d4aaa3ac49a468d46b52196df45412fb603c702be0cfde42167a2d156ba@ec2-54-235-219-113.compute-1.amazonaws.com:5432/d4cq52stka93ap?ssl=true

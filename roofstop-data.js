@@ -75,7 +75,7 @@ const venues = [{
 		happy: 'N/A'
 	}
 	picture: 'https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/10303808_708258239213193_9174361412255359918_n.png?oh=440ed476813eee48c1ea5b9443e75ee5&oe=5A8C8AA8'
-	website: 'http://lingerdenver.com/	'
+	website: 'http://lingerdenver.com/'
 	rating: [*Average rating]
 	review: ['']
 },
@@ -272,7 +272,7 @@ const venues = [{
 		regular: '9pm-2am'
 		happy: 'N/A'
 	}
-	picture: 'http://citybuzz.com/wp-content/uploads/2010/03/Picture-121.png	'
+	picture: 'http://citybuzz.com/wp-content/uploads/2010/03/Picture-121.png'
 	website: 'http://coclubs.com/club-vinyl'
 	rating: [*Average rating]
 	review: ['']
@@ -406,16 +406,16 @@ const venues = [{
 },
 {
 	id:
-	name: '54 Thirty'
-	location: {
+	name: {'54 Thirty'
 		city: 'Denver'
 		state: 'CO'
 		zipcode: '80205'
 		address: '1475 California Street'
 	}
-	hours: {
-		regular: 'Closed until 2018'
-		happy: 'Closed until 2018'
+
+	hours : {
+	 regular: 'Closed until 2018'
+	 happy: 'Closed until 2018'
 	}
 	picture: 'https://static1.squarespace.com/static/597a0f4a414fb5bf09fd0e36/599b03a617bffc5c4b929e23/59e16a8f7de075bd8a6650ff/1507945114689/?format=750w'
 	website: 'https://www.54thirty.com/'
