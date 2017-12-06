@@ -10,21 +10,20 @@ router.get('/locations', function(req,res,next) {
   })
 })
 
-router.get('/reviews', function(req,res,next) {
-  queries.getReview()
-  .then((reviewData) => {
-    res.json(reviewData)
-  })
-})
-
-
-router.post('/reviews', function(req,res,next) {
-  queries.newReview( req.body)
-  .then((reviewNewData) =>{
-    res.json(reviewNewData)
-  })
-
-})
+// router.get('/reviews', function(req,res,next) {
+//   queries.getReview()
+//   .then((reviewData) => {
+//     res.json(reviewData)
+//   })
+// })
+//
+//
+// router.post('/reviews', function(req,res,next) {
+//   queries.newReview( req.body)
+//   .then((reviewNewData) =>{
+//     res.json(reviewNewData)
+//   })
+// })
 
 
 
