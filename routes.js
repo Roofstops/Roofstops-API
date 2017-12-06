@@ -10,5 +10,16 @@ router.get('/locations', function(req,res,next) {
   })
 })
 
+router.get('/reviews', function(req,res,next) {
+  queries.getReview()
+  .then((reviewData) => {
+    res.json(reviewData)
+  })
+})
+
+
+
+
+
 
 module.exports = router
