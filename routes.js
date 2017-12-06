@@ -18,6 +18,13 @@ router.get('/reviews', function(req,res,next) {
 })
 
 
+router.post('/reviews', function(req,res,next) {
+  queries.newReview( req.body)
+  .then((reviewNewData) =>{
+    res.json(reviewNewData)
+  })
+
+})
 
 
 
