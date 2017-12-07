@@ -12,6 +12,7 @@ exports.up = function(knex, Promise) {
       table.varchar('picture')
       table.string('website')
       table.integer('rating')
+      table.text('googleUrl')
     })
 ])
 }
